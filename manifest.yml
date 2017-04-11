@@ -3,9 +3,9 @@ declared-services:
     label: discovery
     plan: standard
 applications:
-  - name: discovery-news-demo
+  - name: discovery-nodejs-harrytest
     command: npm start
     path: .
-    memory: 512M
+    memory: 256M
     services:
-      - my-discovery
+      - Discovery-vp
