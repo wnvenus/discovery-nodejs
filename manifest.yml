@@ -8,4 +8,4 @@ applications:
     path: .
     memory: 256M
     services:
-      - Discovery-vp
+      - Discovery-o1
